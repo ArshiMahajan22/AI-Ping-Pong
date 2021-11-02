@@ -21,6 +21,7 @@ body {
 
 #Start, #Status {
     font-size: 19px;
+    margin: 5px;
 }
 
 #Restart {
