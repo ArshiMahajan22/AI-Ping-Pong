@@ -34,7 +34,7 @@ function preload () {
 
 function setup(){
   var canvas =  createCanvas(700,600);
-  canvas.parent('#CanvasHolder');
+  canvas.parent('CanvasHolder');
   video = createCapture(VIDEO);
   video.size(700, 600)
   video.hide();
@@ -103,6 +103,7 @@ function draw(){
     strokeWeight(0.7);
     ellipse(WristX, WristY, 20, 20);
   }
+}
 }
 
 function startGame() {
